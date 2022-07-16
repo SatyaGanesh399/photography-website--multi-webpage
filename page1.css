@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.top .navbar{
+    margin-top: 3px;
+    background-color: #a8cfec;
+    width: 85%;
+    height: 50px;
+    display: flex;
+    position: relative;
+    left: -20px;
+    justify-content: flex-end;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.top .navbar a{
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #d4d4d4;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+    transition: 1s;
+}
+.top .navbar a:hover{
+    color: #FF0063;
+    font-size: 1.2rem;
+}
+
+header .container{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container-1{
+    margin: 25px;
+    background-color: #D3E0EA;
+    border-radius: 25px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.container-2{
+    margin: 25px;
+    background-color: #D3E0EA;
+    border-radius: 25px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.container-3{
+    margin: 25px;
+    background-color: #D3E0EA;
+    border-radius: 25px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.container-4{
+    margin: 25px;
+    background-color: #D3E0EA;
+    border-radius: 25px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+img{
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid #a8cfec;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    align-items: center;
+    transition: 2s;
+}
+h3{
+    margin-top: 50px;
+    margin: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+h4{
+    margin: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: black;
+}
+img:hover{
+    width: 202px;
+}
